@@ -1,0 +1,342 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "Starter",
+      "dishes": [
+        {
+          "id": "starter-1",
+          "title": "Beef Wellington tart",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/starters/starter-1.jpg",
+          "price": 3,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "starter-2",
+          "title": "Blooming onion",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/starters/starter-2.jpg",
+          "price": 2,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "starter-3",
+          "title": "Tuna empanadillas",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/starters/starter-3.jpg",
+          "price": 5,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "starter-4",
+          "title": "Sweet fried saganaki",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/starters/starter-4.jpg",
+          "price": 4,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "starter-5",
+          "title": "Bacon rings",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/starters/starter-5.jpg",
+          "price": 6,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "starter-6",
+          "title": "Butter chicken vol-au-vents",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/starters/starter-6.jpg",
+          "price": 7,
+          "quantity": 1,
+          "inCart": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Main Dish",
+      "dishes": [
+        {
+          "id": "main-dish-1",
+          "title": "Sea Trout",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/dishes/dish-1.jpg",
+          "price": 50,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "main-dish-2",
+          "title": "Roasted Beef",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/dishes/dish-2.jpg",
+          "price": 23,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "main-dish-3",
+          "title": "Butter Fried Chicken",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/dishes/dish-3.jpg",
+          "price": 25,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "main-dish-4",
+          "title": "Chiken Filet",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/dishes/dish-4.jpg",
+          "price": 31,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "main-dish-5",
+          "title": "Cornish - Mackerel",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/dishes/dish-5.jpg",
+          "price": 47,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "main-dish-6",
+          "title": "Chicken Curry",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/dishes/dish-6.jpg",
+          "price": 16,
+          "quantity": 1,
+          "inCart": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Desserts",
+      "dishes": [
+        {
+          "id": "desserts-1",
+          "title": "Chocolate Mousse",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/desserts/dessert-1.jpg",
+          "price": 11,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "desserts-2",
+          "title": "Fudge",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/desserts/dessert-2.jpg",
+          "price": 7,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "desserts-3",
+          "title": "Cheese Cake",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/desserts/dessert-3.jpg",
+          "price": 12,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "desserts-4",
+          "title": "Banana Pudding",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/desserts/dessert-4.jpg",
+          "price": 14,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "desserts-5",
+          "title": "Brownies",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/desserts/dessert-5.jpg",
+          "price": 6,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "desserts-6",
+          "title": "Ice Cream",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/desserts/dessert-6.jpg",
+          "price": 3,
+          "quantity": 1,
+          "inCart": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Drinks",
+      "dishes": [
+        {
+          "id": "drinks-1",
+          "title": "Margarita",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/drinks/drink-1.jpg",
+          "price": 8,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "drinks-2",
+          "title": "Manhattan",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/drinks/drink-2.jpg",
+          "price": 9,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "drinks-3",
+          "title": "Daiquiri",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/drinks/drink-3.jpg",
+          "price": 7,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "drinks-4",
+          "title": "Negroni",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/drinks/drink-4.jpg",
+          "price": 4,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "drinks-5",
+          "title": "Gimlet",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/drinks/drink-5.jpg",
+          "price": 9,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "drinks-6",
+          "title": "Cosmopolitan",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/drinks/drink-6.jpg",
+          "price": 10,
+          "quantity": 1,
+          "inCart": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Coffee",
+      "dishes": [
+        {
+          "id": "coffee-1",
+          "title": "Coffee Capuccino",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/menu/menu-1.jpg",
+          "price": 3,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "coffee-2",
+          "title": "Black Coffee",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/menu/menu-2.jpg",
+          "price": 2,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "coffee-3",
+          "title": "Ice Coffee",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/menu/menu-3.jpg",
+          "price": 4,
+          "quantity": 1,
+          "inCart": false
+        },
+        {
+          "id": "coffee-4",
+          "title": "Classic Coffee",
+          "description": "A small river named Duden flows by their place and supplies",
+          "img": "/images/menu/menu-4.jpg",
+          "price": 1,
+          "quantity": 1,
+          "inCart": false
+        }
+      ]
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "Coffee Testing Day",
+      "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      "img": "images/blog/image_1.jpg",
+      "date": "Aug 01, 2008",
+      "author": "Admin",
+      "comments": 3
+    },
+    {
+      "id": 2,
+      "title": "Coffee Testing Day",
+      "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      "img": "images/blog/image_2.jpg",
+      "date": "Aug 01, 2008",
+      "author": "Admin",
+      "comments": 3
+    },
+    {
+      "id": 3,
+      "title": "Coffee Testing Day",
+      "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      "img": "images/blog/image_3.jpg",
+      "date": "Aug 01, 2008",
+      "author": "Admin",
+      "comments": 3
+    },
+    {
+      "id": 4,
+      "title": "Coffee Testing Day",
+      "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      "img": "images/blog/image_4.jpg",
+      "date": "Aug 01, 2008",
+      "author": "Admin",
+      "comments": 3
+    },
+    {
+      "id": 5,
+      "title": "Coffee Testing Day",
+      "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      "img": "images/blog/image_5.jpg",
+      "date": "Aug 01, 2008",
+      "author": "Admin",
+      "comments": 3
+    },
+    {
+      "id": 6,
+      "title": "Coffee Testing Day",
+      "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+      "img": "images/blog/image_6.jpg",
+      "date": "Aug 01, 2008",
+      "author": "Admin",
+      "comments": 3
+    }
+  ]
+}

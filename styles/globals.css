@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+nav {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #c49b63;
+}
+.fixed_nav {
+  background-color: #120f0f;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: none;
+}
+header {
+  background-image: url("/images/header/bg_2.jpg");
+  background-size: 100vw 100vh;
+  width: 100%;
+  height: 100vh;
+}
+main {
+  background-image: url("/images/bg_4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+a {
+  color: white !important;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+p {
+  color: #6d6d6d;
+}
+.img-wrapper {
+  position: relative;
+}
+.img-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+.carousel-caption {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+#statistics {
+  position: relative;
+  background-image: url("/images/header/bg_2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+#statistics::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+#testimony {
+  position: relative;
+  background-image: url("/images/header/bg_1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+#testimony::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+#contact input {
+  border-bottom: 1px solid #c49b63;
+  color: #c49b63;
+}
+#contact .MuiInputLabel-root {
+  color: #c49b63 !important;
+}
+#contact textarea {
+  border-bottom: 1px solid #c49b63;
+  color: #c49b63 !important;
+}
+#billing_details input {
+  color: #6d6d6d !important;
+}
+
+#side_search input {
+  color: white !important;
+}
+footer {
+  background-color: #120f0f;
+}
