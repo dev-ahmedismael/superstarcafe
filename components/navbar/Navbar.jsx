@@ -22,13 +22,15 @@ const Navbar = () => {
   // Show navbar on scroll
   const [isScrolledDown, setIsScrolledDown] = useState(false);
 
-  window.addEventListener("scroll", function () {
-    if (window.scrollY > 50) {
-      setIsScrolledDown(true);
-    } else {
-      setIsScrolledDown(false);
-    }
-  });
+  if (typeof window !== "undefined") {
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 50) {
+        setIsScrolledDown(true);
+      } else {
+        setIsScrolledDown(false);
+      }
+    });
+  }
 
   return (
     <nav className={isScrolledDown ? "fixed_nav" : ""}>
