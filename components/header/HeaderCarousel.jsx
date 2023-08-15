@@ -27,14 +27,6 @@ const HeaderCarousel = () => {
     <Carousel fade controls={false}>
       {images.map((image) => (
         <Carousel.Item key={image.id} style={{ height: "100vh" }}>
-          <Box className="img-wrapper" width={"100%"} height={"100%"}>
-            <img
-              src={image.imageUrl}
-              alt="Header Image"
-              width={"100%"}
-              height={"100%"}
-            />
-          </Box>
           <Box display={{ xs: "none", sm: "none", md: "block" }}>
             <Carousel.Caption>
               <Typography
@@ -78,6 +70,15 @@ const HeaderCarousel = () => {
               </Box>
             </Carousel.Caption>
           </Box>
+          <Box className="img-wrapper" width={"100%"} height={"100%"}>
+            <img
+              src={image.imageUrl}
+              alt="Header Image"
+              width={"100%"}
+              height={"100%"}
+            />
+          </Box>
+
           <Box display={{ xs: "block", sm: "block", md: "none" }}>
             <Carousel.Caption>
               <Typography
