@@ -32,14 +32,15 @@ const HeaderCarousel = () => {
               variant="h4"
               className={greatVibes.className}
               color={"primary"}
+              textAlign={"center"}
               mb={2}
             >
               Welcome
             </Typography>
-            <Typography variant="h3" mb={2}>
+            <Typography variant="h3" mb={2} textAlign={"center"}>
               {image.caption}
             </Typography>
-            <Typography variant="h6" mb={2}>
+            <Typography variant="h6" mb={2} textAlign={"center"}>
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia.
             </Typography>
