@@ -39,90 +39,86 @@ const HeaderCarousel = () => {
 
           <Carousel.Caption>
             <Box display={{ xs: "none", sm: "none", md: "block" }}>
-              <AOS>
-                <Typography
-                  variant="h4"
-                  className={greatVibes.className}
-                  color={"primary"}
-                  mb={2}
-                >
-                  Welcome
-                </Typography>
-                <Typography variant="h3" mb={2}>
-                  {image.caption}
-                </Typography>
-                <Typography variant="h6" mb={2}>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </Typography>
-                <Box display={"flex"} justifyContent={"center"}>
-                  <Box mr={1}>
-                    <Link href={"/shop"}>
-                      <Button
-                        variant="contained"
-                        color="primary"
-                        sx={{ borderRadius: 0, height: "50px" }}
-                      >
-                        Order Now
-                      </Button>
-                    </Link>
-                  </Box>
-                  <Box ml={1}>
-                    <Link href={"/menu"}>
-                      <Button
-                        variant="outlined"
-                        color="primary"
-                        sx={{ borderRadius: 0, height: "50px" }}
-                      >
-                        View Menu
-                      </Button>
-                    </Link>
-                  </Box>
+              <Typography
+                variant="h4"
+                className={greatVibes.className}
+                color={"primary"}
+                mb={2}
+              >
+                Welcome
+              </Typography>
+              <Typography variant="h3" mb={2}>
+                {image.caption}
+              </Typography>
+              <Typography variant="h6" mb={2}>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </Typography>
+              <Box display={"flex"} justifyContent={"center"}>
+                <Box mr={1}>
+                  <Link href={"/shop"}>
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      sx={{ borderRadius: 0, height: "50px" }}
+                    >
+                      Order Now
+                    </Button>
+                  </Link>
                 </Box>
-              </AOS>
+                <Box ml={1}>
+                  <Link href={"/menu"}>
+                    <Button
+                      variant="outlined"
+                      color="primary"
+                      sx={{ borderRadius: 0, height: "50px" }}
+                    >
+                      View Menu
+                    </Button>
+                  </Link>
+                </Box>
+              </Box>
             </Box>
             <Box display={{ xs: "block", sm: "block", md: "none" }}>
-              <AOS>
-                <Typography
-                  variant="h6"
-                  className={greatVibes.className}
-                  color={"primary"}
-                  mb={2}
-                >
-                  Welcome
-                </Typography>
-                <Typography variant="h6" mb={2}>
-                  {image.caption}
-                </Typography>
-                <Typography color={"white"} mb={2}>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </Typography>
-                <Box display={"flex"} justifyContent={"center"}>
-                  <Box mr={1}>
-                    <Link href={"/shop"}>
-                      <Button
-                        variant="contained"
-                        color="primary"
-                        sx={{ borderRadius: 0, height: "50px" }}
-                      >
-                        Order Now
-                      </Button>
-                    </Link>
-                  </Box>
-                  <Box ml={1}>
-                    <Link href={"/menu"}>
-                      <Button
-                        variant="outlined"
-                        color="primary"
-                        sx={{ borderRadius: 0, height: "50px" }}
-                      >
-                        View Menu
-                      </Button>
-                    </Link>
-                  </Box>
+              <Typography
+                variant="h6"
+                className={greatVibes.className}
+                color={"primary"}
+                mb={2}
+              >
+                Welcome
+              </Typography>
+              <Typography variant="h6" mb={2}>
+                {image.caption}
+              </Typography>
+              <Typography color={"white"} mb={2}>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia.
+              </Typography>
+              <Box display={"flex"} justifyContent={"center"}>
+                <Box mr={1}>
+                  <Link href={"/shop"}>
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      sx={{ borderRadius: 0, height: "50px" }}
+                    >
+                      Order Now
+                    </Button>
+                  </Link>
                 </Box>
-              </AOS>
+                <Box ml={1}>
+                  <Link href={"/menu"}>
+                    <Button
+                      variant="outlined"
+                      color="primary"
+                      sx={{ borderRadius: 0, height: "50px" }}
+                    >
+                      View Menu
+                    </Button>
+                  </Link>
+                </Box>
+              </Box>
             </Box>
           </Carousel.Caption>
         </Carousel.Item>
