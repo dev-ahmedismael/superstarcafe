@@ -27,49 +27,47 @@ const HeaderCarousel = () => {
     <Carousel fade controls={false}>
       {images.map((image) => (
         <Carousel.Item key={image.id} style={{ height: "100vh" }}>
-          <Box display={{ xs: "none", sm: "none", md: "block" }}>
-            <Carousel.Caption>
-              <Typography
-                variant="h4"
-                className={greatVibes.className}
-                color={"primary"}
-                mb={2}
-              >
-                Welcome
-              </Typography>
-              <Typography variant="h3" mb={2}>
-                {image.caption}
-              </Typography>
-              <Typography variant="h6" mb={2}>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
-              </Typography>
-              <Box display={"flex"} justifyContent={"center"}>
-                <Box mr={1}>
-                  <Link href={"/shop"}>
-                    <Button
-                      variant="contained"
-                      color="primary"
-                      sx={{ borderRadius: 0, height: "50px" }}
-                    >
-                      Order Now
-                    </Button>
-                  </Link>
-                </Box>
-                <Box ml={1}>
-                  <Link href={"/menu"}>
-                    <Button
-                      variant="outlined"
-                      color="primary"
-                      sx={{ borderRadius: 0, height: "50px" }}
-                    >
-                      View Menu
-                    </Button>
-                  </Link>
-                </Box>
+          <Carousel.Caption>
+            <Typography
+              variant="h4"
+              className={greatVibes.className}
+              color={"primary"}
+              mb={2}
+            >
+              Welcome
+            </Typography>
+            <Typography variant="h3" mb={2}>
+              {image.caption}
+            </Typography>
+            <Typography variant="h6" mb={2}>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </Typography>
+            <Box display={"flex"} justifyContent={"center"}>
+              <Box mr={1}>
+                <Link href={"/shop"}>
+                  <Button
+                    variant="contained"
+                    color="primary"
+                    sx={{ borderRadius: 0, height: "50px" }}
+                  >
+                    Order Now
+                  </Button>
+                </Link>
               </Box>
-            </Carousel.Caption>
-          </Box>
+              <Box ml={1}>
+                <Link href={"/menu"}>
+                  <Button
+                    variant="outlined"
+                    color="primary"
+                    sx={{ borderRadius: 0, height: "50px" }}
+                  >
+                    View Menu
+                  </Button>
+                </Link>
+              </Box>
+            </Box>
+          </Carousel.Caption>
           <Box className="img-wrapper" width={"100%"} height={"100%"}>
             <img
               src={image.imageUrl}
@@ -77,50 +75,6 @@ const HeaderCarousel = () => {
               width={"100%"}
               height={"100%"}
             />
-          </Box>
-
-          <Box display={{ xs: "block", sm: "block", md: "none" }}>
-            <Carousel.Caption>
-              <Typography
-                variant="h6"
-                className={greatVibes.className}
-                color={"primary"}
-                mb={2}
-              >
-                Welcome
-              </Typography>
-              <Typography variant="h6" mb={2}>
-                {image.caption}
-              </Typography>
-              <Typography color={"white"} mb={2}>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
-              </Typography>
-              <Box display={"flex"} justifyContent={"center"}>
-                <Box mr={1}>
-                  <Link href={"/shop"}>
-                    <Button
-                      variant="contained"
-                      color="primary"
-                      sx={{ borderRadius: 0, height: "50px" }}
-                    >
-                      Order Now
-                    </Button>
-                  </Link>
-                </Box>
-                <Box ml={1}>
-                  <Link href={"/menu"}>
-                    <Button
-                      variant="outlined"
-                      color="primary"
-                      sx={{ borderRadius: 0, height: "50px" }}
-                    >
-                      View Menu
-                    </Button>
-                  </Link>
-                </Box>
-              </Box>
-            </Carousel.Caption>
           </Box>
         </Carousel.Item>
       ))}
