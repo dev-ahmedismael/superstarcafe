@@ -36,8 +36,8 @@ const HeaderCarousel = () => {
             />
           </Box>
 
-          <Carousel.Caption>
-            <Box display={{ xs: "none", sm: "none", md: "block" }}>
+          <Box display={{ xs: "none", sm: "none", md: "block" }}>
+            <Carousel.Caption>
               <Typography
                 variant="h4"
                 className={greatVibes.className}
@@ -77,8 +77,10 @@ const HeaderCarousel = () => {
                   </Link>
                 </Box>
               </Box>
-            </Box>
-            <Box display={{ xs: "block", sm: "block", md: "none" }}>
+            </Carousel.Caption>
+          </Box>
+          <Box display={{ xs: "block", sm: "block", md: "none" }}>
+            <Carousel.Caption>
               <Typography
                 variant="h6"
                 className={greatVibes.className}
@@ -118,8 +120,8 @@ const HeaderCarousel = () => {
                   </Link>
                 </Box>
               </Box>
-            </Box>
-          </Carousel.Caption>
+            </Carousel.Caption>
+          </Box>
         </Carousel.Item>
       ))}
     </Carousel>
