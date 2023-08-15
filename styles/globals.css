@@ -9,6 +9,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   border-bottom: 1px solid #c49b63;
+  background-color: #120f0f;
 }
 .fixed_nav {
   background-color: #120f0f;
