@@ -26,21 +26,23 @@ const HeaderCarousel = () => {
   return (
     <Carousel fade controls={false}>
       {images.map((image) => (
-        <Carousel.Item key={image.id} style={{ height: "100vh" }}>
+        <Carousel.Item
+          key={image.id}
+          style={{ height: "100vh", width: "100%" }}
+        >
           <Carousel.Caption>
             <Typography
               variant="h4"
               className={greatVibes.className}
               color={"primary"}
-              textAlign={"center"}
               mb={2}
             >
               Welcome
             </Typography>
-            <Typography variant="h3" mb={2} textAlign={"center"}>
+            <Typography variant="h3" mb={2}>
               {image.caption}
             </Typography>
-            <Typography variant="h6" mb={2} textAlign={"center"}>
+            <Typography variant="h6" mb={2}>
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia.
             </Typography>
