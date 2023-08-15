@@ -7,7 +7,6 @@ import { Great_Vibes } from "next/font/google";
 import Theme from "./theme";
 import ReduxProvider from "@/store/ReduxProvider";
 import "animate.css";
-import BootstrapProvider from "@/templates/BootstrapProvider";
 
 export const roboto = Roboto({ subsets: ["latin"], weight: "400" });
 export const greatVibes = Great_Vibes({ subsets: ["latin"], weight: "400" });
@@ -25,11 +24,9 @@ export default function RootLayout({ children }) {
       <body className={roboto.className}>
         <ReduxProvider>
           <Theme>
-            <BootstrapProvider>
-              <Header />
-              <main>{children}</main>
-              <Footer />
-            </BootstrapProvider>
+            <Header />
+            <main>{children}</main>
+            <Footer />
           </Theme>
         </ReduxProvider>
       </body>
