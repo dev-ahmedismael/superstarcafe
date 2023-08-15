@@ -11,7 +11,7 @@ const AOS = ({ children }) => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        transition={{ duration: 0.4 }}
+        transition={{ duration: 0.5 }}
       >
         {children}
       </motion.div>
