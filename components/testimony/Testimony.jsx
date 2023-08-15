@@ -120,12 +120,12 @@ const Testimony = () => {
                             style={{ borderRadius: "100%" }}
                           />
                         </Box>
-                        <div>
+                        <Box>
                           <Typography color={"white"}>{e.name}</Typography>
                           <Typography color={"white"} fontSize={"small"}>
                             {e.job}
                           </Typography>
-                        </div>
+                        </Box>
                       </Box>
                     </Container>
                   </Box>
