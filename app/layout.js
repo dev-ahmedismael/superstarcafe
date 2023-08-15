@@ -21,9 +21,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Superstar Café</title>
-        <meta name="description" content="description">
-          THE BEST COFFEE TASTING EXPERIENCE IN LIBERTY CITY
-        </meta>
+        <meta
+          name="description"
+          content="THE BEST COFFEE TASTING EXPERIENCE IN LIBERTY CITY"
+        />
       </head>
       <body className={roboto.className}>
         <ReduxProvider>
