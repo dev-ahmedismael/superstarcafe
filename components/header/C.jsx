@@ -5,7 +5,7 @@ import { Box, Button, Typography } from "@mui/material";
 import { greatVibes } from "@/app/layout";
 import Link from "next/link";
 
-const HeaderCarousel = () => {
+const C = () => {
   const images = [
     {
       id: 1,
@@ -127,4 +127,4 @@ const HeaderCarousel = () => {
   );
 };
 
-export default HeaderCarousel;
+export default C;

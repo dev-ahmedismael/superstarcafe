@@ -5,6 +5,7 @@ import { Box } from "@mui/material";
 import HeaderCarousel from "./HeaderCarousel";
 import { usePathname } from "next/navigation";
 import HeaderBreadcrumbs from "./HeaderBreadcrumbs";
+import C from "./C";
 
 const Header = () => {
   const path = usePathname();
@@ -13,7 +14,7 @@ const Header = () => {
       <Box position={"absolute"} zIndex={10} width={"100%"}>
         <Navbar />
       </Box>
-      {path === "/" ? <HeaderCarousel /> : <HeaderBreadcrumbs />}
+      {path === "/" ? <C /> : <HeaderBreadcrumbs />}
     </header>
   );
 };
