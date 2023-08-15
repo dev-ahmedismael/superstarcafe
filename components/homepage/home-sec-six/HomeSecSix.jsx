@@ -3,6 +3,7 @@ import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import data from "@/public/data/data.json";
 import AOS from "@/templates/AOS";
+import AddToCart from "@/templates/AddToCart";
 
 const HomeSecSix = () => {
   const coffee = data.menu.find((e) => e.title === "Coffee");
@@ -33,9 +34,7 @@ const HomeSecSix = () => {
                   <img src={dish.img} alt={dish.title} width={"100%"} />
                   <Typography my={2}>{dish.title}</Typography>
                   <Typography mb={2}>{`$${dish.price.toFixed(2)}`}</Typography>
-                  <Button variant="outlined" sx={{ borderRadius: 0 }}>
-                    Add to cart
-                  </Button>
+                  <AddToCart item={dish} />
                 </Box>
               </Grid>
             ))}

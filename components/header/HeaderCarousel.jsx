@@ -4,7 +4,6 @@ import Carousel from "react-bootstrap/Carousel";
 import { Box, Button, Typography } from "@mui/material";
 import { greatVibes } from "@/app/layout";
 import Link from "next/link";
-import AOS from "@/templates/AOS";
 
 const HeaderCarousel = () => {
   const images = [

@@ -11,6 +11,7 @@ import {
 import React, { useState } from "react";
 import data from "@/public/data/data.json";
 import AOS from "@/templates/AOS";
+import AddToCart from "@/templates/AddToCart";
 
 const HomeSecEight = () => {
   const theme = useTheme();
@@ -103,12 +104,7 @@ const HomeSecEight = () => {
                       </Grid>
                       <Grid item xs={12}>
                         <Box display={"flex"} justifyContent={"center"}>
-                          <Button
-                            variant="outlined"
-                            sx={{ height: "50px", borderRadius: 0 }}
-                          >
-                            Add to cart
-                          </Button>
+                          <AddToCart item={e} />
                         </Box>
                       </Grid>
                     </Grid>

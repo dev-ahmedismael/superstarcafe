@@ -157,6 +157,13 @@ const Cart = () => {
               </TableBody>
             </Table>
           </TableContainer>
+          <Box py={2}>
+            {cart.length === 0 && (
+              <Typography textAlign={"center"} color={"white"}>
+                Your cart is empty!
+              </Typography>
+            )}
+          </Box>
           <Box pt={5} maxWidth={300}>
             <Box py={3} border={`1px solid #6D6D6D`}>
               <Container>
