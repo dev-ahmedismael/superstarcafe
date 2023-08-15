@@ -11,11 +11,6 @@ import "animate.css";
 export const roboto = Roboto({ subsets: ["latin"], weight: "400" });
 export const greatVibes = Great_Vibes({ subsets: ["latin"], weight: "400" });
 
-// export const metadata = {
-//   title: "Superstar Café",
-//   description: "THE BEST COFFEE TASTING EXPERIENCE IN LIBERTY CITY",
-// };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
