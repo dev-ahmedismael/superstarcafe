@@ -45,7 +45,7 @@ const Shop = () => {
               {categories.map((cat) => (
                 <Box key={cat} p={1}>
                   <Button
-                    variant={activeCategory === cat && "contained"}
+                    variant={activeCategory === cat ? "contained" : ""}
                     sx={{
                       color:
                         activeCategory === cat

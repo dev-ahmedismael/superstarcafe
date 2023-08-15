@@ -42,7 +42,7 @@ const HomeSecEight = () => {
               {categories.map((cat) => (
                 <Box key={cat} p={1}>
                   <Button
-                    variant={activeCategory === cat && "contained"}
+                    variant={activeCategory === cat ? "contained" : ""}
                     sx={{
                       color:
                         activeCategory === cat
@@ -70,7 +70,7 @@ const HomeSecEight = () => {
             <AOS>
               <Grid container spacing={3}>
                 {activeSection.dishes.slice(0, 3).map((e) => (
-                  <Grid item xs={12} sm={4}>
+                  <Grid key={e.id} item xs={12} sm={4}>
                     <Grid container spacing={2}>
                       <Grid item xs={12}>
                         <img

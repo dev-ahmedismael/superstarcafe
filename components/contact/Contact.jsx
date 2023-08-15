@@ -3,10 +3,8 @@ import {
   Box,
   Button,
   Container,
-  FormControl,
   Grid,
   TextField,
-  TextareaAutosize,
   Typography,
 } from "@mui/material";
 import React from "react";
@@ -73,7 +71,6 @@ const Contact = () => {
                       <TextField
                         multiline
                         rows={6}
-                        mul
                         label="Message"
                         variant="standard"
                         fullWidth

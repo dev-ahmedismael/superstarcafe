@@ -18,8 +18,8 @@ const TagCloud = () => {
         Tag Cloud
       </Typography>
       <Box display={"flex"} flexWrap={"wrap"}>
-        {tagCloud.map((tag) => (
-          <Button key={"tag"} variant="outlined" sx={{ m: 1 }}>
+        {tagCloud.map((tag, index) => (
+          <Button key={index} variant="outlined" sx={{ m: 1 }}>
             {tag}
           </Button>
         ))}
