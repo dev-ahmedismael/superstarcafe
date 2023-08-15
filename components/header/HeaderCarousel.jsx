@@ -52,30 +52,6 @@ const HeaderCarousel = () => {
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia.
             </Typography>
-            <Box display={"flex"} justifyContent={"center"}>
-              <Box mr={1}>
-                <Link href={"/shop"}>
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    sx={{ borderRadius: 0, height: "50px" }}
-                  >
-                    Order Now
-                  </Button>
-                </Link>
-              </Box>
-              <Box ml={1}>
-                <Link href={"/menu"}>
-                  <Button
-                    variant="outlined"
-                    color="primary"
-                    sx={{ borderRadius: 0, height: "50px" }}
-                  >
-                    View Menu
-                  </Button>
-                </Link>
-              </Box>
-            </Box>
           </Carousel.Caption>
         </Carousel.Item>
       ))}
