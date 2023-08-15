@@ -117,7 +117,7 @@ const Footer = () => {
             Copyright ©2023 All rights reserved
           </Typography>
           <Typography textAlign={"center"}>
-            Made with <FavoriteIcon /> by
+            Developed with <FavoriteIcon /> by
             <Link href={"https://ahmedismael.vercel.app"} target="_blank">
               <Button>Ahmed Ismael</Button>
             </Link>

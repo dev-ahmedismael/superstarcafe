@@ -7,41 +7,41 @@ const Testimony = () => {
   const testimony = [
     {
       id: 1,
-      img: "/images/persons/person_2.jpg",
-      name: "James Chris",
-      job: "Web Developer",
+      img: "/images/persons/niko_bellic.jpeg",
+      name: "Niko Bellic",
+      job: "Serial Killer",
       comment:
         "“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small.”",
     },
     {
       id: 2,
-      img: "/images/persons/person_3.jpg",
-      name: "Jasmine Stieve",
-      job: "Financial Analyst",
+      img: "/images/persons/roman_bellic.jpg",
+      name: "Roman Bellic",
+      job: "Limousine Company Owner",
       comment:
         "“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.”",
     },
     {
       id: 3,
-      img: "/images/persons/person_4.jpg",
-      name: "Johnathan Washignton",
-      job: "Data Scientist",
+      img: "/images/persons/mallorie_barads.jpg",
+      name: "Mallorie Barads",
+      job: "Roman's Wife",
       comment:
         "“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name. ”",
     },
     {
       id: 4,
-      img: "/images/persons/person_2.jpg",
-      name: "Louise Kelly ",
-      job: "Photographer",
+      img: "/images/persons/little_jacob.jpg",
+      name: "Little Jacob ",
+      job: "Drug Dealer",
       comment:
         "“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however.”",
     },
     {
       id: 5,
-      img: "/images/persons/person_3.jpg",
-      name: "Albert Johnson",
-      job: "Lawyer",
+      img: "/images/persons/dwayne_forge.jpg",
+      name: "Dwayne Forge",
+      job: "Nightclub Owner",
       comment:
         "“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name. ”",
     },
@@ -81,7 +81,8 @@ const Testimony = () => {
                           <img
                             src={e.img}
                             alt={e.name}
-                            width={"100%"}
+                            width={50}
+                            height={50}
                             style={{ borderRadius: "100%" }}
                           />
                         </Box>
