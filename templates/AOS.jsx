@@ -7,9 +7,9 @@ const AOS = ({ children }) => {
   return (
     <div ref={scrollRef} style={{ overflow: "hidden" }}>
       <motion.div
-        variants={{ hidden: { y: 200 }, visible: { y: 0 } }}
-        initial="hidden"
-        whileInView="visible"
+        variants={{ offscreen: { y: 300 }, onscreen: { y: 0 } }}
+        initial="offscreen"
+        whileInView="onscreen"
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
