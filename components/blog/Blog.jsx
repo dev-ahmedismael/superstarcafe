@@ -9,10 +9,10 @@ const Blog = () => {
     <section>
       <Container>
         <Box py={10}>
-          <AOS>
-            <Grid container spacing={4}>
-              {blog.map((e) => (
-                <Grid key={e.id} item xs={12} sm={6} md={4}>
+          <Grid container spacing={4}>
+            {blog.map((e) => (
+              <Grid key={e.id} item xs={12} sm={6} md={4}>
+                <AOS>
                   <Box>
                     <Box mb={2}>
                       <img
@@ -38,10 +38,10 @@ const Blog = () => {
                     </Typography>
                     <Typography>{e.description}</Typography>
                   </Box>
-                </Grid>
-              ))}
-            </Grid>
-          </AOS>
+                </AOS>
+              </Grid>
+            ))}
+          </Grid>
         </Box>
       </Container>
     </section>

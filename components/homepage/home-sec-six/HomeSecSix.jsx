@@ -26,16 +26,20 @@ const HomeSecSix = () => {
           <Grid container spacing={3}>
             {coffee.dishes.map((dish) => (
               <Grid key={dish.id} item xs={12} sm={6} md={3}>
-                <Box
-                  display={"flex"}
-                  flexDirection={"column"}
-                  alignItems={"center"}
-                >
-                  <img src={dish.img} alt={dish.title} width={"100%"} />
-                  <Typography my={2}>{dish.title}</Typography>
-                  <Typography mb={2}>{`$${dish.price.toFixed(2)}`}</Typography>
-                  <AddToCart item={dish} />
-                </Box>
+                <AOS>
+                  <Box
+                    display={"flex"}
+                    flexDirection={"column"}
+                    alignItems={"center"}
+                  >
+                    <img src={dish.img} alt={dish.title} width={"100%"} />
+                    <Typography my={2}>{dish.title}</Typography>
+                    <Typography mb={2}>{`$${dish.price.toFixed(
+                      2
+                    )}`}</Typography>
+                    <AddToCart item={dish} />
+                  </Box>
+                </AOS>
               </Grid>
             ))}
           </Grid>

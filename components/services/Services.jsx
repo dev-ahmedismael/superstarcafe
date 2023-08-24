@@ -33,10 +33,10 @@ const Services = () => {
     <section>
       <Box py={10} bgcolor={theme.palette.primary.main}>
         <Container>
-          <AOS>
-            <Grid container spacing={3}>
-              {services.map((service) => (
-                <Grid key={service.id} item xs={12} sm={4}>
+          <Grid container spacing={3}>
+            {services.map((service) => (
+              <Grid key={service.id} item xs={12} sm={4}>
+                <AOS>
                   <Box
                     display={"flex"}
                     flexDirection={"column"}
@@ -57,10 +57,10 @@ const Services = () => {
                       {service.description}
                     </Typography>
                   </Box>
-                </Grid>
-              ))}
-            </Grid>
-          </AOS>
+                </AOS>
+              </Grid>
+            ))}
+          </Grid>
         </Container>
       </Box>
     </section>

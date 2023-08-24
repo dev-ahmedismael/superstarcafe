@@ -4,6 +4,7 @@ import React from "react";
 import data from "@/public/data/data.json";
 import HomeSecEight from "../homepage/home-sec-eight/HomeSecEight";
 import AOS from "@/templates/AOS";
+import SOS from "@/templates/SOS";
 
 const Menu = () => {
   const theme = useTheme();
@@ -18,10 +19,11 @@ const Menu = () => {
                 <Typography variant="h5" color={"white"} mb={5}>
                   {e.title.toUpperCase()}
                 </Typography>
-                <AOS>
-                  <Grid container spacing={3}>
-                    {e.dishes.map((e) => (
-                      <Grid key={e.id} item xs={12}>
+
+                <Grid container spacing={3}>
+                  {e.dishes.map((e) => (
+                    <Grid key={e.id} item xs={12}>
+                      <SOS>
                         <Box display={"flex"}>
                           <Box mr={2}>
                             <img
@@ -108,10 +110,10 @@ const Menu = () => {
                             <Typography>{e.description}</Typography>
                           </Box>
                         </Box>
-                      </Grid>
-                    ))}
-                  </Grid>
-                </AOS>
+                      </SOS>
+                    </Grid>
+                  ))}
+                </Grid>
               </Grid>
             ))}
           </Grid>

@@ -70,10 +70,11 @@ const Shop = () => {
                 </Box>
               ))}
             </Box>
-            <AOS>
-              <Grid container spacing={3}>
-                {activeSection.dishes.map((e) => (
-                  <Grid key={e.id} item xs={12} sm={4}>
+
+            <Grid container spacing={3}>
+              {activeSection.dishes.map((e) => (
+                <Grid key={e.id} item xs={12} sm={4}>
+                  <AOS>
                     <Grid container spacing={2}>
                       <Grid item xs={12}>
                         <img
@@ -110,10 +111,10 @@ const Shop = () => {
                         </Box>
                       </Grid>
                     </Grid>
-                  </Grid>
-                ))}
-              </Grid>
-            </AOS>
+                  </AOS>
+                </Grid>
+              ))}
+            </Grid>
           </Box>
         </Box>
       </Container>

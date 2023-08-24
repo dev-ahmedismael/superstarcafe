@@ -3,6 +3,7 @@ import CallIcon from "@mui/icons-material/Call";
 import GpsFixedIcon from "@mui/icons-material/GpsFixed";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { Box, Grid, Typography, useTheme } from "@mui/material";
+import SOS from "@/templates/SOS";
 
 const Info = () => {
   const theme = useTheme();
@@ -32,15 +33,17 @@ const Info = () => {
     <Grid container spacing={2}>
       {info.map((info) => (
         <Grid item key={info.id} xs={12} sm={12} md={4}>
-          <Box display={"flex"}>
-            <Box px={1}>{info.icon}</Box>
-            <Box>
-              <Typography variant="h6" color={"white"}>
-                {info.title}
-              </Typography>
-              <Typography>{info.description}</Typography>
+          <SOS>
+            <Box display={"flex"}>
+              <Box px={1}>{info.icon}</Box>
+              <Box>
+                <Typography variant="h6" color={"white"}>
+                  {info.title}
+                </Typography>
+                <Typography>{info.description}</Typography>
+              </Box>
             </Box>
-          </Box>
+          </SOS>
         </Grid>
       ))}
     </Grid>
