@@ -112,11 +112,12 @@ const Testimony = () => {
                     <Container>
                       <Typography color={"white"}>{e.comment}</Typography>
                       <Box display={"flex"} mt={2}>
-                        <Box width={40} height={40} mr={2}>
+                        <Box mr={2}>
                           <img
                             src={e.img}
                             alt={e.name}
-                            width={"100%"}
+                            width={40}
+                            height={40}
                             style={{ borderRadius: "100%" }}
                           />
                         </Box>
